@@ -33,7 +33,15 @@ Quanto maior o número de `epochs` maior será o tempo de processamento.
 
 Quanto maior o número de `imgsz` maior será o tempo de processamento.
 
-## 3. Resultado
+## 3. Execução
+
+Para a execução do script abra o _prompt_ do Anaconda e vá até a pasta onde o `training.py` está armazenado.
+
+```
+python training.py
+```
+
+## 4. Resultado
 
 O resultado ficará armazenado na pasta `runs`. Portanto, para acessar o modelo treinado você deverá navegar até a seguinte pasta.
 
