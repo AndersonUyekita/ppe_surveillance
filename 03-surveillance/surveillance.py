@@ -1,32 +1,3 @@
-# Surveillance
-
-O sistema de vigilância de EPI utilizará a priori a câmera de laptop para identificar se o usuário está usando o EPI.
-
-Note que a origem da filmagem é de livre escolha, para ser didático estamos usando a câmera do laptop.
-
-## 1. Requisitos
-
-Vamos precisar acessar a câmera do laptop e navegar pelas pastas do computador.
-
-* `cv2`: Package de Visão Computacional (vamos acessar a câmera);
-* `os`: Package do Sistema Operacional (acessar as pastas), e;
-* `ultralytics`: É onde o YOLO fica hospedado.
-
-## 2. Modelo treinado
-
-O sistema de vigilância de EPI será executado a partir do modelo treinado e armazenado em `02-training`.
-
-## 3. Funcionamento
-
-A câmera do laptop irá fornecer em tempo real a filmagem do ambiente, automaticamente o script analisará os frames do vídeo e irá sobrepor à imagem um enquadramento do EPI.
-
-A lógica do que se fazer após a identificação da ausência do EPI será tratado posteriormente.
-
-O fechamento da janela da videofilmagem é feita apertando a tecla <kbd>Q</kbd>.
-
-## 4. Script
-
-```py
 # Bibliotecas necessárias
 import os
 import cv2
@@ -71,4 +42,3 @@ else:
     # Liberar a captura e fechar janelas
     cap.release()
     cv2.destroyAllWindows()
-```
