@@ -1,0 +1,5 @@
+train: C:/Users/ander/Documents/YOLOv8/dataset/images/train
+val: C:/Users/ander/Documents/YOLOv8/dataset/images/val
+
+nc: 4  # Número de classes
+names: ['helmet', 'glasses EPI', 'ear protector', 'gloves']
