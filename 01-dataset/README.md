@@ -70,4 +70,6 @@ O arquivo `data.yaml` é um tipo de arquivo de configuração.
 * `nc`: Quantidade de categorias, e;
 * `names`: Nome das categorias.
 
-> **Observação:** Atenção ao nomear as categorias, pois um único caractere diferente já o faz diferente.
+> **Observação:** Atenção ao nomear as categorias, pois um único caractere diferente já cria uma nova categoria.
+
+Após a categorização de todas as imagens o `labelImg` cria automaticamente um arquivo chamado `classes.txt`, nele você encontrará todas as categorias criadas.
