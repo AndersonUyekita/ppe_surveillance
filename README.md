@@ -10,9 +10,7 @@ Vamos usar o pacote `YOLO` versão 8 e será necessário fotos e imagens de EPI'
 
 Será necessário a prévia instalação do `CMAKE`, a forma mais fácil encontrada foi instando o `Visual Studio Build Tools` ou atualizando o `Visual Studio`.
 
-Após a instalação ou atualização do `Visual Studio` será possível instalar o `CMAKE` no ambiente Python.
-
-Abra o prompt do conda.
+Após a instalação/atualização do `Visual Studio` será possível instalar o `CMAKE` no ambiente Python pelo `prompt` do Anaconda.
 
 ```
 pip install cmake
@@ -24,14 +22,17 @@ O `CMAKE` é usado para "compilar" o _package_ `dlib` que possui a particularida
 conda install -c conda-forge dlib
 ```
 
+Os demais _packages_ são de simples instalação.
+
 ### 1.2. Bibliotecas
 
-Seguindo as orientações do [1.1. Preparativos](#11-preparativos), os seguintes _packages_ devem estar disponíveis.
+Seguindo as orientações do [1.1. Preparativos](#11-preparativos), os seguintes _packages_ devem estar disponíveis no ambiente de desenvolvimento do Python.
 
 * [cmake](https://pypi.org/project/cmake/)
 * [dlib](https://pypi.org/project/dlib/)
 * [cv2](https://pypi.org/project/opencv-python/)
 * [ultralytics](https://pypi.org/project/ultralytics/)
+* [labelimg](https://pypi.org/project/labelImg/)
 
 ## 2. Processo
 
@@ -51,6 +52,6 @@ Pastas:
 
 ```
 01-dataset
-02-trainning
+02-training
 03-surveillance
 ```
