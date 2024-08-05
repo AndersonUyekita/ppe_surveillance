@@ -1,5 +1,5 @@
-train: C:/Users/ander/Documents/YOLOv8/dataset/images/train
-val: C:/Users/ander/Documents/YOLOv8/dataset/images/val
+train: C:/Users/ander/Documents/jupyter_notebooks/ppe_surveillance/01-dataset/images/train
+val: C:/Users/ander/Documents/jupyter_notebooks/ppe_surveillance/01-dataset/images/val
 
 nc: 4  # Número de classes
 names: ['helmet', 'glasses EPI', 'ear protector', 'gloves']
