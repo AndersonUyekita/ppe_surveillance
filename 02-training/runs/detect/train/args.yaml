@@ -1,7 +1,7 @@
 task: detect
 mode: train
 model: yolov8s.pt
-data: C:/Users/ander/Documents/YOLOv8/dataset/data.yaml
+data: C:/Users/ander/Documents/jupyter_notebooks/ppe_surveillance/01-dataset/data.yaml
 epochs: 100
 time: null
 patience: 100
