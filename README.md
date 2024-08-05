@@ -34,6 +34,14 @@ Seguindo as orientações do [1.1. Preparativos](#11-preparativos), os seguintes
 * [ultralytics](https://pypi.org/project/ultralytics/)
 * [labelimg](https://pypi.org/project/labelImg/)
 
+### 1.3. _Environment_
+
+Talvez seja necessário a criação de um ambiente específico para o projeto.
+
+Quando tentei usar o ambiente `(base)` o _script_ alegava que não um problema de kernel.
+
+Só consegui treinar o algoritmo após a criação do ambiente dedicado para o treinamento. Pode ser que um ambiente muito carregado como o `(base)` interfira negativamente como a instalação de _packages_ corrompidos.
+
 ## 2. Processo
 
 1. Aquisição de imagens de EPI's.
