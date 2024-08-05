@@ -4,7 +4,7 @@ import cv2
 from ultralytics import YOLO
 
 # Caminho do arquivo do modelo
-model_path = 'C:/Users/ander/Documents/jupyter_notebooks/ppe_surveillance/02-training/runs/detect/train2/weights/best.pt'
+model_path = 'C:/Users/ander/Documents/jupyter_notebooks/ppe_surveillance/02-training/runs/detect/train/weights/best.pt'
 
 # Verificar se o arquivo existe
 if not os.path.isfile(model_path):
